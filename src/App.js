@@ -1,13 +1,9 @@
 import React from 'react'
 
-export const App = () => {
+const App = () => {
   return (
-    <div>merhaba dünya
-
-
-    </div>
-
-
-)
+    <div>merhaba dünya</div>
+  )
 }
 
+export default App

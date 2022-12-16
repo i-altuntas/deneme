@@ -1,0 +1,15 @@
+tr{
+    display: flex;
+    flex-direction: row;
+    width: 15rem;
+    
+}
+th{
+    width: 500px;
+    border: 1px solid black;
+}
+input{
+    margin: 15px 15px 15px 0;
+    width: 15rem;
+  
+}

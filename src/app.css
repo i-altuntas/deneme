@@ -1,0 +1,44 @@
+*{
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.App{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.menuclass{
+    border: 2px solid red;
+    width: 99%;
+    
+}
+ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.ItemList a{
+    flex-direction: row;
+    
+    font-family: Arial;
+    font-size: 20px;
+    margin-left: 2rem;
+    background-color: lightblue;
+    padding: 5px;
+    border-radius: 5px;
+
+    
+    
+}
+
+.sagclass{
+    border: 2px solid red;
+    width: 39%;
+}
+.solclass{
+    border: 2px solid red;
+    width: 60%;
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Veri } from "./isimler";
 import "./app.css"
+import Adi from './Adi';
 
 const App = () => {
 
@@ -8,7 +9,9 @@ const App = () => {
 console.log(Veri[0].adi)
 
   return (
+
     <div>
+      <Adi Veri={Veri}/>
       <input />
       <tr>
             <th>Adı</th>
